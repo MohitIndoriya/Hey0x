@@ -9,7 +9,13 @@
   box-sizing: border-box;
   font: normal;
 }
+#maincontainer{
+  position: relative;
+width: 1545px;
+height: 1850px;
 
+background: #FFFFFF;
+}
 #navbar{
  
 position: absolute;
@@ -121,7 +127,7 @@ top: 25px;
 
   border: 1px solid #2F3FD4;
   align-items: center;
-  
+  padding:auto
 }
 .navchild3_1>p{
   
@@ -130,8 +136,9 @@ margin: auto;
 
 color: #2F3FD4;
   
-margin-left: 13px;
+margin-left: 10px;
 margin-top: 3px;
+
 }
 .navchild3_2{
   /* Group 3 */
@@ -426,4 +433,86 @@ height: 471px;
 left: 219px;
 top: 1230px;
 
+}
+.fadein1 {
+  opacity: 1;
+  animation: fade 2s linear;
+  
+  position: absolute;
+  width: 128px;
+  height: 128px;
+  left: 223px;
+  top: 1376px;
+  
+}
+.fadein{
+  position: absolute;
+  width: 600px;
+  height: 70px;
+  left: 223px;
+  top: 1286px;
+  
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 70px;
+  overflow:inherit;
+  color: #3079F1;
+}
+.bottomchild_6{
+  position: absolute;
+width: 461px;
+height: 53px;
+left: 223px;
+top: 1230px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 45px;
+line-height: 53px;
+/* identical to box height */
+
+
+color: #000000;
+}
+.bottomchild_7{
+  position: absolute;
+width: 452px;
+height: 83px;
+left: 223px;
+top: 1539px;
+
+}
+.bottomchild_8{
+  position: absolute;
+width: 206px;
+height: 57px;
+left: 219px;
+top: 1644px;
+
+background: #2F3FD4;
+border-radius: 10px;
+}
+.bottomchild_8_1{
+  position: absolute;
+width: 125px;
+height: 26px;
+left: 237px;
+top: 1658px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 26px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+@keyframes fade {
+0%,100% { opacity: 0 }
+50% { opacity: 1 }
 }

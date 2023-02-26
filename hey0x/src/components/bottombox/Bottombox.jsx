@@ -5,6 +5,7 @@ import logo4 from "../../logos/shazam.png"
 import logo5 from "../../logos/treehouse.png"
 import logo6 from "../../logos/zapier.png"
 import hexatic from "../../logos/Group165.png"
+import bottompic from "../../photos/Group157.png"
 import girl from "../../logos/girl.png"
 import React from 'react'
 import Carousel1 from "../Crausel/Crousel"
@@ -20,8 +21,10 @@ export default function Bottombox() {
         <div className="bc3_1"><span>How do NFTs help in branding? </span></div>
         <div className="bottomchild_4"><img src={girl}/></div>
         <div className="bottomchild_5"></div><p className="bc5_1">Play Video</p>
-        <div  className="carouseldiv"><Carousel1/></div>
-        <div></div>
+        <div className="bottomchild_6"><p>it can be a</p></div>
+        <Carousel1/>
+        <div className="bottomchild_7"><img src={bottompic}/></div>
+        <div className="bottomchild_8"></div><p className="bottomchild_8_1">Try For Free</p>
     </div>
   )
 }

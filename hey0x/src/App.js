@@ -6,7 +6,7 @@ import Bottombox from './components/bottombox/Bottombox';
 
 function App() {
   return (
-    <div >
+    <div id="maincontainer" >
      <Navbar/>
      <Middlebox/>
      <Bottombox/>

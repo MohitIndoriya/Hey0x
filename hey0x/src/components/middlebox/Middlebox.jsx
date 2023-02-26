@@ -18,7 +18,7 @@ export default function Middlebox() {
         <div className='firstdiv' ><p>NFT Life-Cycle Management Platform</p></div>
         <div className='seconddiv'><p>Use NFT-Driven Customer Engagement - at scale</p></div>
         <div className='thirdchild'><p>Leverage NFTs to transform customer engagement and establish a powerful community-driven brand presence with Hexatick's comprehensive NFT management solution.</p></div>
-        <div className='fourthchild'><p>Try for free</p></div>
+        <div className='fourthchild'><p>Try For Free</p></div>
         <div className='fifthchild'><p>No credit card needed</p></div>
         <div className='sixthchild'><p>Request Demo</p></div>
         <marquee className="seventhchild" behavior="scroll" direction="up">
